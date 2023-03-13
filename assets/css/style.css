@@ -1,0 +1,282 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.btn {
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+.btn-primary {
+    background-color: #0069d9;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+header {
+    position: relative;
+    height: 90vh;
+    background: #18191b linear-gradient(to right top, #323232, #302f34, #2d2c36, #292a38, #25273a, #26283b, #26283b, #27293c, #2d2d3c, #32323b, #37363b, #3b3b3b) no-repeat fixed;
+}
+
+.header-content {
+    /*position: absolute;
+    margin-left: -25%;*/
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.header-content h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.features {
+    padding: 5rem 0;
+    background-color: #fff;
+}
+
+.features h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.features p {
+    font-size: 1.125rem;
+    margin-bottom: 2rem;
+}
+
+.features i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #007bff;
+}
+
+.features card {
+    border-radius: 10px;
+    box-shadow: 0 0.25rem 0.7rem rgba(0, 0, 0, 0.05);
+}
+
+.profile-menu .dropdown-menu {
+    right: 0;
+    left: unset;
+}
+.profile-menu .fa-fw {
+    margin-right: 10px;
+}
+
+.toggle-change::after {
+    border-top: 0;
+    border-bottom: 0.3em solid;
+}
+
+  
+/*.typing-demo {
+    width: 100%;
+    animation: typing 3s steps(51), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+    
+    
+}
+  
+  @keyframes typing {
+    from {
+      width: 0;
+      text-align: center;
+      font-size: 2rem;
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+      text-align: center;
+      font-size: 2rem;
+    }
+  }*/
+
+  /*.typing-demo {
+        width: 100%;
+        animation: typing 3s steps(51), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: monospace;
+        font-size: 2vw;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .typing-demo {
+            font-size: 1.5rem;
+            text-align: left;
+            justify-content: flex-start;
+            width: 100%;
+        }
+    }
+    
+    @keyframes typing {
+        from {
+            width: 0;
+            text-align: center;
+            font-size: 2vw;
+        }
+    }
+    
+    @keyframes blink {
+        50% {
+            border-color: transparent;
+            text-align: center;
+
+        }
+    }*/
+
+    /*.typing-demo {
+        width: 100%;
+        animation: typing 3s steps(51), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: monospace;
+        font-size: 2vw;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    @media screen and (max-width: 600px) {
+        .typing-demo {
+            font-size: 1.5rem;
+            text-align: left;
+            justify-content: flex-start;
+            width: 100%;
+            animation: none;
+            border-right: none;
+        }
+    
+        .typing-demo.animate-in {
+            animation: typing-in 2s steps(51);
+        }
+    }
+    
+    @keyframes typing {
+        from {
+            width: 0;
+            text-align: center;
+            font-size: 2vw;
+        }
+    }
+    
+    @keyframes typing-in {
+        from {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+    
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    
+    @keyframes blink {
+        50% {
+            border-color: transparent;
+            text-align: center;
+        }
+    }*/
+
+    /*.typing-demo {
+        width: 100%;
+        animation: typing 3s steps(51), blink .5s step-end infinite alternate;
+        white-space: nowrap;
+        overflow: hidden;
+        border-right: 3px solid;
+        font-family: monospace;
+        font-size: 2vw;
+        justify-content: center;
+        text-align: center;
+      }
+
+      @media screen and (max-width: 600px) {
+        .typing-demo {
+          font-size: 1.5rem;
+          border-right: none;
+          text-align: left;
+          animation: none;
+          overflow: visible;
+          white-space: normal;
+          margin-left: 20%;
+        }
+      }
+      
+
+      @keyframes typing {
+        from {
+            width: 0;
+        }
+    }
+    
+    @keyframes typing-in {
+        from {
+            opacity: 0;
+            transform: translateX(-100%);
+        }
+    
+        to {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    
+    @keyframes blink {
+        50% {
+            border-color: transparent;
+            text-align: center;
+        }
+    }*/
+
+      
+
+      
+    
+
+
+.logo {
+    margin-left: 40%;
+}
