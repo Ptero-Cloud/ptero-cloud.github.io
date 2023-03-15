@@ -1,6 +1,6 @@
 ---
 layout: default
-title: title: PteroCloud - Documentation
+title: PteroCloud - Documentation
 ---
 
 #Install Pterodactyl Panel
